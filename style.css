@@ -1,7 +1,12 @@
 @import url(css/materialize.css);
-nav ul a,
-nav .brand-logo {
-  color: #444; }
+nav {
+  position: fixed;
+  z-index: 3; }
+  nav .brand-logo {
+    color: #444;
+    padding: 8px 0 0 0; }
+  nav ul a {
+    color: #444; }
 
 p {
   line-height: 2rem; }
@@ -10,23 +15,38 @@ p {
   color: #26a69a; }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 650px;
   line-height: 0;
   height: auto;
   color: rgba(255, 255, 255, 0.9); }
-  .parallax-container .parallax-container .section {
-    width: 100%; }
-
-@media only screen and (max-width: 992px) {
   .parallax-container .section {
-    position: absolute;
-    top: 40%; }
+    width: 100%; }
+    .parallax-container .section--hero {
+      margin-top: 65px; }
+      .parallax-container .section--hero h1 {
+        margin-top: 4rem; }
+      .parallax-container .section--hero h2 {
+        font-size: 2.92rem;
+        margin-top: 2rem; }
+      .parallax-container .section--hero__button {
+        margin-top: 5rem; }
+      .parallax-container .section--hero .loc {
+        height: 1.7em;
+        width: 1.7em;
+        display: inline-block;
+        padding-right: 10px; }
+      .parallax-container .section--hero .loc__text {
+        display: inline; }
+  @media only screen and (max-width: 992px) {
+    .parallax-container {
+      position: absolute;
+      top: 40%; }
+      .parallax-container #index-banner .section {
+        top: 10%; } }
+  @media only screen and (max-width: 992px) and (max-width: 600px) {
+    .parallax-container #index-banner .section {
+      top: 0; } }
 
-  #index-banner .section {
-    top: 10%; } }
-@media only screen and (max-width: 600px) {
-  #index-banner .section {
-    top: 0; } }
 .icon-block {
   padding: 0 15px; }
 

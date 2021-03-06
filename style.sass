@@ -1,8 +1,16 @@
 @import "css/materialize.css"
 
-nav ul a,
-nav .brand-logo
-  color: #444
+//navigation
+nav
+  position: fixed
+  z-index: 3
+
+  .brand-logo
+    color: #444
+    padding: 8px 0 0 0
+
+  ul a
+    color: #444
 
 p
   line-height: 2rem
@@ -10,29 +18,52 @@ p
 .sidenav-trigger
   color: #26a69a
 
+//parallax sections
 .parallax-container
-  min-height: 380px
+  min-height: 650px
   line-height: 0
   height: auto
   color: rgba(255,255,255,.9)
-  .parallax-container .section
+
+  .section
     width: 100%
 
+    &--hero
+      margin-top: 65px
 
-@media only screen and (max-width : 992px)
-  .parallax-container .section
+      h1
+        margin-top: 4rem
+
+      h2
+        font-size: 2.92rem
+        margin-top: 2rem
+
+      &__button
+        margin-top: 5rem
+
+      .loc
+        height: 1.7em
+        width: 1.7em
+        display: inline-block
+        padding-right: 10px
+
+      .loc__text
+          display: inline
+
+
+  @media only screen and (max-width : 992px)
     position: absolute
     top: 40%
 
-  #index-banner .section
-    top: 10%
+    #index-banner .section
+      top: 10%
 
 
-@media only screen and (max-width : 600px)
-  #index-banner .section
-    top: 0
+    @media only screen and (max-width : 600px)
+      #index-banner .section
+        top: 0
 
-
+//icons
 .icon-block
   padding: 0 15px
 .icon-block .material-icons
