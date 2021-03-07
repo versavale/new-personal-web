@@ -3,27 +3,42 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Parallax Template - Materialize</title>
+  <meta charset="UTF-8"></meta>
+  <title>Valentina Versari | Web Developer</title>
+  <meta name="description" content="Personal Website of Valentina Versari, Frontend Web Developer"></meta>
+  <meta name="author" content="Valentina Versari"></meta>
+  <meta name="robots" content="index, follow" />
+  <meta name="og:title" content="Valentina Versari | Frontend Developer"/>
+  <meta name="og:type" content="website"/>
+  <meta name="og:url" content="http://www.valentinaversari.com"/>
+  <meta name="og:image" content="http://www.valentinaversari.com/assets/preview.png"/>
+  <meta name="og:site_name" content="Valentina Versari | Frontend Developer"/>
+  <meta name="og:description" content="Frontend Developer creating high quality websites."/>
+  <meta name="twitter:card" content="Valentina Versari | Frontend Developer">
+  <meta name="twitter:site" content="@valeversa">
+  <meta name="twitter:title" content="Valentina Versari | Frontend Developer">
+  <meta name="twitter:description" content="Frontend Developer creating high quality websites.">
+  <meta name="twitter:creator" content="@valeversa">
+  <meta name="twitter:image" content="http://www.valentinaversari.com/assets/preview.png">
 
-  <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body>
+<body id="home">
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo left"><img src="assets/astro.svg"></a>
+      <a id="logo-container" href="#home" class="brand-logo left"><img src="assets/astro.svg"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
@@ -32,8 +47,8 @@
   </nav>
 
   <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot section--hero">
-      <div class="container">
+    <div class="section section--hero">
+      <div class="container container--mod hero">
         <br><br>
         <h1 class="header center teal-text text-lighten-2">Valentina Versari</h1>
         <div class="row center">
@@ -52,11 +67,9 @@
   </div>
 
 
-  <div class="container">
+  <div class="container about container--mod" id="about">
     <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
+      <div class="row about__boxes">
         <div class="col s12 m6">
           <div class="icon-block">
             <h2 class="center"><i class="material-icons">flash_on</i></h2>
@@ -78,46 +91,38 @@
           </div>
         </div>
       </div>
+    <div class="row center">
+      <a class="waves-effect waves-light btn-large">My full CV on LinkedIn</a>
+    </div>
 
     </div>
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+  <div class="parallax-container parallax-container--mod" id="skills">
+    <div class="section">
+      <div class="card-panel card-panel--margins teal">
+        <h5 class="header col s12 light">My Skills</h5>
+        <p class="white-text">I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+        </p>
         </div>
-      </div>
     </div>
     <div class="parallax"><img src="assets/us.webp" alt="background2"></div>
   </div>
 
-  <div class="container">
+  <div class="container container--mod">
     <div class="section">
 
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
+          <h4>Contact Me</h4>
           <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
         </div>
       </div>
 
     </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="assets/us.webp" alt="background3"></div>
   </div>
 
   <footer class="page-footer teal">
