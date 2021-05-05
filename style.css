@@ -24,7 +24,7 @@ p {
     .parallax-container .section--hero {
       padding: 65px 0; }
       .parallax-container .section--hero h1 {
-        margin-top: 4rem; }
+        margin-top: 15%; }
       .parallax-container .section--hero h2 {
         font-size: 2.92rem;
         margin-top: 2rem; }
@@ -63,7 +63,15 @@ footer.page-footer {
 .about__boxes {
   margin-bottom: 50px; }
 
-.card-panel--margins {
+.skills .card-panel--margins {
   margin: 0.5rem 2rem 1rem; }
+.skills .card-panel .collection {
+  color: black; }
+.skills .card-panel .collection-item span:last-of-type {
+  float: right; }
+
+.projects .card .card-title {
+  color: black;
+  font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
