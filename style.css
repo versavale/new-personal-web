@@ -7,12 +7,18 @@ nav {
     padding: 8px 0 0 0; }
   nav ul a {
     color: #444; }
+  @media only screen and (max-width: 992px) {
+    nav .brand-logo {
+      top: 0.5rem; } }
+
+.name {
+  padding: 0 32px; }
 
 p {
   line-height: 2rem; }
 
 .sidenav-trigger {
-  color: #26a69a; }
+  color: black; }
 
 .parallax-container {
   min-height: 100vh;
@@ -42,7 +48,7 @@ p {
       top: 40%; }
       .parallax-container #index-banner .section {
         top: 10%; } }
-  @media only screen and (max-width: 992px) and (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     .parallax-container #index-banner .section {
       top: 0; } }
 
