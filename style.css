@@ -10,12 +10,10 @@ nav {
   @media only screen and (max-width: 992px) {
     nav .brand-logo {
       top: 0.5rem; } }
-
-.name {
-  padding: 0 32px; }
-
-p {
-  line-height: 2rem; }
+  nav .name {
+    padding: 0 32px; }
+  nav p {
+    line-height: 2rem; }
 
 .sidenav-trigger {
   color: black; }
@@ -60,6 +58,9 @@ p {
 .icon-block {
   padding: 0 15px; }
 
+.center__no-margin {
+  margin-top: 0; }
+
 .icon-block .material-icons {
   font-size: inherit; }
 
@@ -68,6 +69,10 @@ footer.page-footer {
 
 .about__boxes {
   margin-bottom: 50px; }
+.about .material-icons {
+  vertical-align: middle; }
+.about .linkedin-button {
+  margin-bottom: 60px; }
 
 .skills .card-panel--margins {
   margin: 0.5rem 2rem 1rem; }

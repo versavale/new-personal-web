@@ -13,15 +13,15 @@ nav
     a
       color: #444
 
-  @media only screen and (max-width : 992px)
+  @media only screen and (max-width: 992px)
     .brand-logo
       top: .5rem
 
-.name
-  padding: 0 32px
+  .name
+    padding: 0 32px
 
-p
-  line-height: 2rem
+  p
+    line-height: 2rem
 
 .sidenav-trigger
   color: black
@@ -59,7 +59,6 @@ p
       .loc__text
           display: inline
 
-
   @media only screen and (max-width : 992px)
     top: 40%
 
@@ -79,6 +78,10 @@ p
 .icon-block
   padding: 0 15px
 
+.center
+  &__no-margin
+    margin-top: 0
+
 .icon-block .material-icons
   font-size: inherit
 
@@ -88,10 +91,14 @@ footer.page-footer
 
 //about
 .about
-
   &__boxes
     margin-bottom: 50px
 
+  .material-icons
+    vertical-align: middle
+
+  .linkedin-button
+    margin-bottom: 60px
 
 //skills
 .skills
